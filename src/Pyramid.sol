@@ -2,8 +2,16 @@
 pragma solidity ^0.8.13;
 
 contract Pyramid {
-   function run() view public returns (string memory _out) {
-       _out = "";
-       // todo
-   }
+    function run(uint size) pure public returns (string memory _out) {
+        _out = ""; // TODO
+        /* Example (size = 5):
+         *
+         *     "*\n"
+         *     "**\n"
+         *     "***\n"
+         *     "****\n"
+         *     "*****\n"
+         *
+         */
+    }
 }
